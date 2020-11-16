@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+}
+
+/* utility classes */
+
+section, header {
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 10%;
+}
+
+.main-header {
+    font-size: 73.048098px;
+}
+
+
+/* Navbar styling */
+
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: var(--black-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* Banner section */
+.banner {
+    margin-top: 96px;
+    position: relative;
+}
+
+.event-text {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+
+.bg-black {
+    background-color: #000000;
+}
+
+.red-btn {
+    text-decoration: none;
+    background-color: #FF00FF;
+    padding: 10px;
+    border: none;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: #FF00FF;
+    color: white;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}

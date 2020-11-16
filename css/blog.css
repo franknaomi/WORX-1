@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #FF00FF;
+}
+
+/* Navbar styling */
+
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: var(--black-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+.imelda{
+    padding-left: 30px;
+}
+.blog1,.blog11{
+    width: 450px;
+}
+.blog2,.blog3,.blog4,.blog5,.blog6,.blog7,.blog8{
+    width: 400px;
+}
+.tech h4,.mabel h3, .weekend h4,.imelda h4,.sylvia h4{
+    text-align: center;
+}
+.weekend h4,.tech h4,.imelda h4,.sylvia h4,.mabel h3{
+    padding-top: 15px;
+}
+.weekend p,.tech p,.imelda p,.sylvia p, .edify p,.mabel p{
+    padding: 0 20px;
+    padding-top: 15px;
+
+}
+.edify h4{
+    padding-top: 20px;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+}
+.btn{
+    border: none;
+    background-color: rgb(5, 5, 22);
+    color: white;
+    border-radius: 0px;
+}
+.btn:hover{
+    background-color: #050516;
+     color: magenta;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: #FF00FF;
+    color: white;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+/*Banner Style*/
+.banner-style {
+    position: relative;
+    padding: 0;
+    margin-top: 96px;
+}
+
+.banner-text {
+    position: absolute;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}
+
+@media  (max-width: 767px){
+    .blog-section{
+        padding-top: 15px;
+    }
+    .imelda{
+        padding-left: 0;
+    }
+    .blog1,.blog11,.blog2,.blog3,.blog4,.blog5,.blog6,.blog7,.blog8{
+        width: 350px;
+
+    }
+    .weekend p,.tech p,.imelda p,.sylvia p{
+        padding: 0 20px;
+        padding-top: 15px;
+    }
+    .weekend h4,.tech h4,.imelda h4,.sylvia h4,.edify h4,.mabel h3{
+        padding-top: 5px;
+    }
+    .btn:hover{
+        background-color: #050516;
+         color: magenta;
+    }
+}
+@media  (min-width: 768px ) and (max-width:1023px){
+    .blog-section{
+        padding-top: 25px;
+    }
+    .blog1,.blog11{
+        width: 250px;
+    }
+    .imelda{
+        padding-left: 0;
+    }
+    .blog2,.blog3,.blog4{
+        width: 200px;
+    }
+    .weekend p,.tech p,.imelda p,.sylvia p{
+        padding: 0 0;
+        padding-top: 15px;
+    }
+    .weekend h4,.tech h4,.imelda h4,.sylvia h4,.edify h4,.mabel h3{
+        padding-top: 5px;
+    }
+}

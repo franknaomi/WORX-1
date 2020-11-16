@@ -1,0 +1,325 @@
+/*////////////////*/
+/* General styling */
+/*////////////////*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding: 0px 15px;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.head {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+:root {
+    --red-color: #EA3b3D;
+    --pink-color: #FF00FF;
+    --black-color: #000000;
+    --purple-color: #30062E;
+    --grey-color: #cbccca;
+    --maroon-color: #A82728;
+}
+
+.dark-btn-bg {
+    background-color: var(--purple-color);
+    border-radius: 7px;
+}
+
+
+
+/*////////////////*/
+/* Navbar styling */
+/*////////////////*/
+
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: var(--purple-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+/*////////////////*/
+/* Banner styling */
+/*////////////////*/
+
+.banner-style {
+    position: relative;
+    padding: 0;
+    margin-top: 96px;
+}
+
+.banner-text {
+    position: absolute;
+    z-index: 1;
+}
+
+.custom-btn-reddish {
+    background-color: var(--pink-color);
+    border-radius: 6;
+}
+
+.height-style {
+    height: 80vh;
+}
+
+/*///////////////*/
+/* Cards Styling */
+/*///////////////*/
+
+.txt-group-bg {
+    background-color: var(--grey-color);
+}
+
+/*////////////////////*/
+/* digi-tools styling */
+/*////////////////////*/
+
+.section-margin {
+    margin-top: 100px;
+}
+
+.purple-color {
+    color: var(--purple-color);
+}
+
+.digitools-paragraph {
+    font-size: 1.2rem;
+}
+
+/*///////////////////////*/
+/* Event Section styling */
+/*///////////////////////*/
+
+.next-logo-custom-width {
+    width: 90px;
+}
+
+.event-paragraph-padding {
+    padding: 0px 20px;
+}
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow:    3px 3px 5px 6px rgba(0, 0, 0, 0.4); 
+    box-shadow:         3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+
+.event-style {
+    width: 50%;
+}
+
+/*//////////////////////////*/
+/* Partners Section Styling */
+/*//////////////////////////*/
+
+.flox-logo {
+    width: 40%;
+    height: auto;
+}
+
+.host-beak {
+    width: 100%;
+    height: auto;
+}
+
+.trax {
+    width: 80%;
+    height: auto;
+}
+
+.ngage-logo {
+    width: 80%;
+    height: auto;
+}
+
+.onuk-logo {
+    width: 60%;
+    height: auto;
+}
+
+.build-logo {
+    width: 50%;
+    height: auto;
+}
+
+/* Footer Btn */
+.submit-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: var(--pink-color);
+    color: white;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+/* mediaQueries */
+@media only screen and (min-width: 576px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+
+    /*resizing the partner icons for mobile*/
+    .flox-logo {
+        margin-left: 0px !important;
+        width: 20%;
+        height: auto;
+    }
+    
+    .host-beak {
+        width: 50%;
+        height: auto;
+    }
+    
+    .trax {
+        width: 30%;
+        height: auto;
+    }
+    
+    .ngage-logo {
+        width: 40%;
+        height: auto;
+    }
+    
+    .onuk-logo {
+        width: 40%;
+        height: auto;
+    }
+    
+    .build-logo {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+
+    .btn-font-size {
+        font-size: 0.8rem;
+    }
+
+    .event-style {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   .adjusted-width {
+       padding: 0px 20px 0px 30px !important;
+   }
+}
+
+@media only screen and (min-width: 320px) {
+    .btn-padding-moble {
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .adjusted-width {
+        width: 80%;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .paragraph-style {
+        line-height: 1.9rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .reduced-font-mobile {
+        font-size: 1.7rem;
+    }
+
+    .explore-btn-mobile {
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+
+    .txt-group-padding-mobile {
+        padding: 30px 10px 30px 30px !important;
+    }
+
+    .shadow {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .banner-text{
+        width: 50%;
+        margin: 25% 0 0 7%;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-text {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}

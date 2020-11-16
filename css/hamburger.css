@@ -1,0 +1,41 @@
+.navbar .navbar-toggler {
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+   background-image: none !important;
+}
+
+.hamburger .line{
+    width: 38px;
+    height: 4px;
+    background-color: #30062E;
+    display: block;
+    margin-bottom: 8px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hamburger:hover{
+    cursor: pointer;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(2){
+    opacity: 0;
+  }
+  
+  #hamburger-1.is-active .line:nth-child(1){
+    -webkit-transform: translateY(15px) rotate(45deg);
+    -ms-transform: translateY(15px) rotate(45deg);
+    -o-transform: translateY(15px) rotate(45deg);
+    transform: translateY(12.5px) rotate(45deg);
+  }
+  
+  #hamburger-1.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-15px) rotate(-45deg);
+    -ms-transform: translateY(-15px) rotate(-45deg);
+    -o-transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-12.5px) rotate(-45deg);
+  }

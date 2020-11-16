@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner {
+    margin-top: 96px;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+}
+
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: var(--black-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* MY HEADER ENDS HERE */
+
+#hero-img{
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-about{
+    height: 60vh;
+}
+.section-about h1{
+    color: #A82728;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.middle-line{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin: auto;  
+}
+.para{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.para5{
+    text-align: right !important;
+    color: #1A1A1A;
+    padding-right: 150px;
+    font-weight: bold;
+}
+/* MY ABOUT SECTION ENDS HERE */
+.section-collaborate{
+    background-color: rgb(5, 5, 19);
+    height: 30vh;
+}
+
+.industry{
+    color: #EA3b3D;
+    padding-top: 50px;
+}
+.share{
+    color: white;
+}
+/* MY COLLABORATE SECTION ENDS HERE */
+.section-people{
+    background-image: url('../Media/Community-03.png');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* MY PEOPLE SECTION ENDS HERE */
+.xtra{
+    padding: 50px 0;
+}
+.patience,.imelda,.unyime,.sylvia,.edify{
+    width: 300px;
+}
+.wait{
+    margin-top: -9iw 0px;
+}
+.section-join{
+    height: 35vh;
+    padding: 3% 0;
+}
+.section-join h3{
+    font-weight: bold;
+}
+.black-btn-bg{
+    border: none;
+    background-color: rgb(5, 5, 22);
+    border-radius: 0px;
+}
+
+.custom-color {
+    background-color: rgb(0, 0, 255, 0.1);
+}
+
+.reddish-bg {
+    background-color: #EA3b3D;
+    border-radius: 40px;
+}
+/* MY EXTRA SECTION ENDS HERE */
+.section-join h3{
+    color: #A82728;
+}
+.footer-section{
+    background-color: black;
+    color: white;
+    height: 60vh;
+}
+.footer-logo{
+    max-width: 100%;
+    width: 200px;
+}
+.footer-icons{
+    display: flex;
+    margin-top: -35px;
+    margin-left: -30px;
+}
+.twitter-icon{
+    width: 65px;
+    padding-top: 30px;
+}
+.facebook-icon{
+    width: 55px;
+    padding-top: 7px;
+}
+.whatsapp-icon{
+    width: 35px;
+    padding-top: 15px;
+}
+.instagram-icon{
+    width: 40px;
+}
+.youtube-icon{
+    width: 45px;
+    padding-top: 7px;
+}
+
+#more {
+    display: none;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: #FF00FF;
+    color: white;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}
+
+@media  (max-width: 767px){
+    #navigate{
+        padding: 0 15px;
+    }
+    .para1,.para2,.para3,.para4,.para5{
+        padding: 0;
+    }
+    .footer-section{
+        height: 130vh;
+    }
+    .footer-logo{
+        padding-right: 100px;
+    }
+    .section-about{
+        height:  80vh;
+    }
+    .section-people{
+        background-position: center;
+    }
+    .section-collaborate{
+        height: 45vh;
+    }
+    div.edet1 {order: 2;}
+    div.edet2 {order: 1;}
+    
+    div.sylvia1 {order: 2;}
+    div.sylvia2 {order: 1;}
+    
+    .section-join h3{
+        padding-top: 0;
+    }
+    .igah h3,.edet1 h3,.udoma h3,.sylvia1 h3,.edidiong h3{
+        text-align: center;
+    }
+    
+    .edidiong p{
+        padding: 0 25px;
+    }
+}
+@media  (min-width: 768px ) and (max-width:1023px){
+    #navigate{
+        padding: 0 15px;
+    }
+    .para1,.para2,.para3,.para4,.para5{
+        padding: 0;
+    }
+    .footer-section{
+        height: 50vh;
+    }
+    
+    .section-about{
+        height:  90vh;
+    }
+    .about-us p{
+        font-size: 25px;
+    }
+    
+    .patience,.imelda,.unyime,.sylvia,.edify{
+        width: 200px;
+    }
+    .section-people{
+        background-position: center;
+    }
+    .section-collaborate{
+        height: 30vh;
+    }
+    div.edet1 {order: 2;}
+    div.edet2 {order: 1;}
+    
+    div.sylvia1 {order: 2;}
+    div.sylvia2 {order: 1;}
+    
+    .section-join{
+        height: 50vh;
+    }
+    .section-join h3{
+        padding-top: 50px;
+    }
+    .section-join p{
+        padding: 0 20px;
+        font-size: 20px;
+    }
+    .igah h3,.edet1 h3,.udoma h3,.sylvia1 h3,.edidiong h3{
+        text-align: center;
+    }
+    
+    .edidiong p,.igah p,.edet1 p,.udoma p,.sylvia1 p{
+        padding: 0 25px;
+        font-size: 20px;
+    }
+}

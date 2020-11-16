@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #1A1A1A;
+}
+
+.heading {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #ff04f2;
+}
+.head {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #FF00FF;
+}
+.card-head {
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    color: #1A1A1A;
+}
+
+/* utility classes */
+
+section, header {
+    margin-bottom: 50px;
+}
+
+hr {
+    width: 10%;
+}
+
+.main-header {
+    font-size: 73.048098px;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+
+/* Navbar styling */
+
+.page:hover {
+    color: #FF00FF !important;
+    text-decoration: underline;
+}
+
+#nav {
+    background-color: #FFFFFF;
+}
+
+.logo-img{
+    width: 70px;
+}
+
+.nav-list-color, .black-color {
+    color: var(--black-color) !important;
+}
+
+.custom-logo-padding {
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+}
+
+.nav-font {
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* Banner section */
+
+.banner {
+    margin-top: 96px;
+    position: relative;
+}
+.banner-label {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+
+
+.who-we-are-label {
+    width: 60%;
+}
+
+.tech {
+    color: #FF00FF ;
+}
+
+.services-card {
+    background-color: #E6E6E6;
+    margin-top: 15px;
+}
+
+.card-icon {
+    width: 30%;
+    height: auto;
+}
+
+.fa-twitter, .fa-facebook {
+    background-color: white;
+    color: black;
+}
+
+.sub-btn {
+    border: none;
+    padding: 10px;
+    background-color: #ff04f2;
+    color: white;
+}
+
+@media only screen and (max-width: 575px) {
+    div.footer-form {
+        order: 1;
+    }
+    div.footer-label {
+        text-align: center;
+        order: 2;
+    }
+}
